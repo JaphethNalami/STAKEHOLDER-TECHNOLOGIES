@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stakeholder Technologies - Connected</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+</head>
+<body>
+    <div class="page-container">
+        <div class="container">
+            <div class="modal">
+                <div class="modal-header">
+                    <div class="notification-badge">27</div>
+                    <h1>Stakeholder Technologies</h1>
+                    <button class="close-btn">&times;</button>
+                </div>
+                <div class="modal-content">
+                    <h2>You're Connected!</h2>
+                    <p class="subtitle">Welcome to high-speed internet</p>
+                    
+                    <div class="info-grid">
+                        <div class="info-item">
+                            <div class="icon">
+                                <i class="fas fa-wifi"></i>
+                            </div>
+                            <h3>Network</h3>
+                            <p>Stakeholder_5G</p>
+                        </div>
+                        <div class="info-item">
+                            <div class="icon">
+                                <i class="fas fa-signal"></i>
+                            </div>
+                            <h3>Signal</h3>
+                            <p>Excellent</p>
+                        </div>
+                        <div class="info-item">
+                            <div class="icon">
+                                <i class="fas fa-tachometer-alt"></i>
+                            </div>
+                            <h3>Speed</h3>
+                            <p>Up to 300 Mbps</p>
+                        </div>
+                    </div>
+                    
+                    <!-- New advertisement section -->
+                    <div class="ad-section">
+                        <div class="new-badge">New Service</div>
+                        <div class="ad-content">
+                            <div class="ad-icon">
+                                <i class="fas fa-home"></i>
+                                <i class="fas fa-building"></i>
+                            </div>
+                            <div class="ad-text">
+                                <h3>Home & Business Internet</h3>
+                                <p>Choose your perfect high-speed package:</p>
+                                <div class="pricing-table">
+                                    <div class="pricing-item" data-speed="3Mbps" data-price="1000">
+                                        <span class="price">1000</span>
+                                        <span class="speed">3Mbps</span>
+                                    </div>
+                                    <div class="pricing-item" data-speed="5Mbps" data-price="1500">
+                                        <span class="price">1500</span>
+                                        <span class="speed">5Mbps</span>
+                                    </div>
+                                    <div class="pricing-item" data-speed="10Mbps" data-price="2000">
+                                        <span class="price">2000</span>
+                                        <span class="speed">10Mbps</span>
+                                    </div>
+                                    <div class="pricing-item" data-speed="15Mbps" data-price="3000">
+                                        <span class="price">3000</span>
+                                        <span class="speed">15Mbps</span>
+                                    </div>
+                                    <div class="pricing-item" data-speed="20Mbps" data-price="4000">
+                                        <span class="price">4000</span>
+                                        <span class="speed">20Mbps</span>
+                                    </div>
+                                    <div class="pricing-item" data-speed="30Mbps" data-price="5000">
+                                        <span class="price">5000</span>
+                                        <span class="speed">30Mbps</span>
+                                    </div>
+                                </div>
+                                <p class="pricing-note">All prices in shillings • Click a package to get started</p>
+                                <button class="ad-btn">Get Started</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="button-group">
+                        <button class="btn primary-btn">
+                            <i class="fas fa-tachometer-alt"></i> Speed Test
+                        </button>
+                        <button class="btn secondary-btn">
+                            <i class="fas fa-globe"></i> Visit Website
+                        </button>
+                    </div>
+                    
+                    <div class="premium-section">
+                        <div class="limited-badge">Limited Time</div>
+                        <h3>Upgrade To Home Or Business Connection Today</h3>
+                        <p>Pay 3500 Shillings For Installation And Get One Monthh Free!</p>
+                        <button class="support-btn">
+                            <i class="fab fa-whatsapp"></i> Chat with Support
+                        </button>
+                    </div>
+                    
+                    <div class="footer">
+                        <p>&copy; 2025 Stakeholder Technologies. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Form Modal -->
+    <div class="form-modal" id="contactFormModal">
+        <div class="form-container">
+            <button class="form-close-btn">&times;</button>
+            <h3>Get Connected Today</h3>
+            <p>Fill in your details and we'll contact you shortly</p>
+            
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="fullName">Full Name*</label>
+                    <input type="text" id="fullName" name="fullName" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email Address*</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">Phone Number*</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="address">Address</label>
+                    <input type="text" id="address" name="address">
+                </div>
+                
+                <div class="form-group">
+                    <label for="package">Selected Package*</label>
+                    <select id="package" name="package" required>
+                        <option value="">Select a package</option>
+                        <option value="3Mbps - 1000">3Mbps - 1000 Shillings</option>
+                        <option value="5Mbps - 1500">5Mbps - 1500 Shillings</option>
+                        <option value="10Mbps - 2000">10Mbps - 2000 Shillings</option>
+                        <option value="15Mbps - 3000">15Mbps - 3000 Shillings</option>
+                        <option value="20Mbps - 4000">20Mbps - 4000 Shillings</option>
+                        <option value="30Mbps - 5000">30Mbps - 5000 Shillings</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Additional Information</label>
+                    <textarea id="message" name="message" rows="3"></textarea>
+                </div>
+                
+                <button type="submit" class="submit-btn">Submit Request</button>
+            </form>
+            
+            <div id="formSuccess" class="form-success">
+                <i class="fas fa-check-circle"></i>
+                <h4>Thank You!</h4>
+                <p>Your request has been submitted successfully. Our team will contact you shortly.</p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+
+
+</body>
+</html>
+
